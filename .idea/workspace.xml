@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="179151f4-0f97-4265-84bb-3619b4344608" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/read_stdin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_passwd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,14 +31,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_argv_copy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_argv_copy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_argv_copy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#13#22#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_stdin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/read_stdin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding>
+                <element signature="e#26#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_passwd.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user_passwd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -59,17 +83,21 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/test_argv.py" />
         <option value="$PROJECT_DIR$/test_argv.py" />
         <option value="$PROJECT_DIR$/test_argv_copy.py" />
+        <option value="$PROJECT_DIR$/read_stdin.py" />
+        <option value="$PROJECT_DIR$/user_passwd.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="width" value="1934" />
     <option name="height" value="1031" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -79,11 +107,6 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="python_linux_admin_operation" type="cbb8eebc:String" user="python_linux_admin_operation" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="python_linux_admin_operation" type="cbb8eebc:String" user="python_linux_admin_operation" />
-              <item name=".idea" type="cbb8eebc:String" user=".idea" />
             </path>
           </expand>
           <select />
@@ -119,7 +142,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_argv_copy">
+  <component name="RunManager" selected="Python.user_passwd">
+    <configuration name="read_stdin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_linux_admin_operation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read_stdin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="test_argv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_linux_admin_operation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,12 +197,34 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="user_passwd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_linux_admin_operation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_passwd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.test_argv" />
       <item itemvalue="Python.test_argv_copy" />
+      <item itemvalue="Python.read_stdin" />
+      <item itemvalue="Python.user_passwd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.user_passwd" />
+        <item itemvalue="Python.read_stdin" />
         <item itemvalue="Python.test_argv_copy" />
         <item itemvalue="Python.test_argv" />
       </list>
@@ -193,15 +256,15 @@
     <frame x="-7" y="0" width="1289" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2366958" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23623304" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.44007155" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3291592" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3488372" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3291592" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4709091" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3581818" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.5109091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2494043" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.44186047" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.44181818" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32962668" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -211,6 +274,32 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -234,11 +323,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_argv_copy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#13#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_stdin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#26#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_passwd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
