@@ -1,0 +1,7 @@
+#####################
+
+Coding by y00300912/huaweicloud.com 2018-05-01 JunTingMingYuan.luohu.shenzhen.
+The file 'config' should be placed to "~/.ssh/" folder.
+Then can run as "ssh ubuntu",or run as "ssh web1".
+
+Sftp'bahavor is same as ssh.It may be placed "~/.ssh/" folder(as your wish) 

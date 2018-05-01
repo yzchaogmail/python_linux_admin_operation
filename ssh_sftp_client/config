@@ -1,0 +1,17 @@
+Host web1
+    HostName 49.4.1.145	
+    IdentityFile /Users/liwenli/Downloads/KeyPair-y00300912.pem
+    User root
+    StrictHostKeyChecking no
+Host web2
+    HostName 114.115.176.23	
+    User root 
+    IdentityFile /Users/liwenli/Downloads/KeyPair-y00300912.pem
+Host db
+    User root 
+    IdentityFile /Users/liwenli/Downloads/KeyPair-y00300912.pem
+    HostName 114.115.180.236
+Host ubuntu
+    User root 
+    IdentityFile /Users/liwenli/Downloads/KeyPair-y00300912-cn-south-1.pem
+    HostName 139.159.251.213 

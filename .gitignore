@@ -3,3 +3,4 @@
 .idea/
 Interpreter/
 *.pyc
+*.un~
